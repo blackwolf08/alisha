@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'react-perfect-scrollbar/dist/css/styles.css';
+import "animate.css/animate.min.css";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
