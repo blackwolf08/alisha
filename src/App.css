@@ -87,7 +87,16 @@ nav {
   padding: 30px;
 }
 
+.img_in_vp{
+  filter: grayscale(0);
+}
+
+.img_not_in_vp{
+  filter: grayscale(1);
+}
+
 .card__img{
   width: calc(100vw - 60px);
   margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
